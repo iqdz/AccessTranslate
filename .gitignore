@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+.eggs/
+build/
+dist/
+*.spec
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# PyInstaller build output (portable exe, produced by build.bat/build.ps1)
+*.exe
+*.manifest
+
+# App runtime data - never belongs in the repo, this is per-user local
+# state (%AppData%\Access-Translate\ on the actual machine). Included
+# here only in case any of these accidentally get created inside the
+# project folder during local testing.
+config.json
+debug.log
+*.log
+
+# Editor / IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# Secrets - API keys must never be committed. Config lives in
+# %AppData%, but guard against anyone accidentally dropping a local
+# copy into the repo for testing.
+*.env
+.env
+secrets.json
