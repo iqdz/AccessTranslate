@@ -1,0 +1,3 @@
+wxPython
+pywin32
+comtypes

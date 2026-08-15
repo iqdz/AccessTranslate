@@ -42,6 +42,9 @@ they're doing. Access-Translate is built around that single workflow.
   text (or original + translation) back to the clipboard for pasting
   elsewhere.
 - **Tray icon**, with an option to minimize to tray instead of closing.
+- **About tab in Settings** — app description, links to the GitHub
+  repository and the GPLv2 license, contact info, and a toggle for
+  writing a diagnostic `debug.log` file.
 - **Portable config** — all settings live in
   `%AppData%\Access-Translate\config.json`, independent of where the exe
   itself is located, so you can move the exe around without losing
@@ -141,9 +144,20 @@ Actively developed and tested end-to-end with real screen reader
 workflows across Chrome, Firefox, and Notepad. See `ARCHITECTURE.md` for
 implementation details and design decisions.
 
+## Repository
+
+https://github.com/iqdz/AccessTranslate
+
 ## License
 
-GPLv2 — see `LICENSE`.
+GPLv2 — see `LICENSE` or
+https://www.gnu.org/licenses/old-licenses/gpl-2.0.html.
+
+## Contact
+
+Contact Harith: h@shorthickey.com
+
+From Harith to the community.
 
 ## Related projects
 
