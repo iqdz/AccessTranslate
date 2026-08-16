@@ -9,6 +9,8 @@ a hotkey, and hear the translation immediately. No screen reader add-on
 required: works out-of-the-box (even in virtual-cursor/browse modes); speech goes straight through Windows SAPI, so it works
 universally regardless of which screen reader (if any) you're running.
 
+Note to screenreaders users, in browsers and some non text editing fields, the text need to be copied prior to pressing the translation hotkey. still looking for a permanent fix for this issue.
+
 ## Why this exists
 
 Most translation tools assume you'll click a button, look at a popup, or
