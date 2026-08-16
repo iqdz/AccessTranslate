@@ -6,7 +6,7 @@ for screen reader users (NVDA, JAWS, Windows Narrator), but useful to anyone.
 
 Select text anywhere — a browser, Notepad, a chat app, a PDF reader — press
 a hotkey, and hear the translation immediately. No screen reader add-on
-required: speech goes straight through Windows SAPI, so it works
+required: works out-of-the-box (even in virtual-cursor/browse modes); speech goes straight through Windows SAPI, so it works
 universally regardless of which screen reader (if any) you're running.
 
 ## Why this exists
